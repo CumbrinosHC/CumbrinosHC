@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IMPORTANTE</title>
+        <link rel="stylesheet" href="estilo.css"> 
+        <script src="script.js" defer></script>
+    </head>
+    <style>
+    .div {
+    width: 50px;
+    height: 350px;
+    background-color: black;
+    margin: 6px 0;
+}
+         
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 700px;
+	position: relative;
+	margin:5% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    font-size: 12px;
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #c9effc; }  
+    </style>
+    
+<br>  
+    
+    <fieldset>
+    
+ <header>    
+        <body background="https://static.diariofemenino.com/media/3215/c/el-miedo-al-color-blanco-existe-asi-es-la-leucofobia-sm.jpg"></body>
+    <br>
+    <div align="center"><img src="imagenes/logoHC.jpeg" widht ="200px" height="200px"></div>
+    
+    <h2 align="center">UNIDAD EDUCATIVA "HACIA LA CUMBRE"</h2>
+        
+       <body>
+            <center>
+           <ul class="menu">
+         <li><a href="index.html"><h4>Inicio</h4></a></li>
+         <li><a href="introduccion.html"><h4>Introduccion</h4></a></li>
+         <li><a href="contencion.html"><h4>Contencion Emocional</h4></a></li>
+         <li><a href="dece.html"><h4>DECE</h4></a></li>
+         <li><a href="escuelapadres.html"><h4>Escuela para Padres</h4></a></li>
+         <li><a href="importante.html"><h4>Importante</h4></a></li>
+         <li><a href="autoridades.html"><h4>Autoridades</h4></a></li>       
+           </ul>
+            </center>
+       </body>
+     
+<br>
+     
+    <body>
+        <div class="overlay">
+        <div class="slideshow">
+        </div>
+        </div>
+    <header class="encabezado">
+    <img src="https://www3.gobiernodecanarias.org/medusa/ecoblog/jmhergare/files/2018/09/recuerda.jpg">
+    </header>
+        
+    <section class="galeria">
+        <div class="columna">
+<th><center><a href="#modal1">
+<img src="imagenes/ruta1.jpeg" ></a></center>
+   <div id="modal1" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta1.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>
+            
+<th><center><a href="#modal2">
+<img src="imagenes/ruta6.jpeg" ></a></center>
+   <div id="modal2" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta6.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal3">
+<img src="imagenes/ruta11.jpeg" ></a></center>
+   <div id="modal3" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta11.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>                
+        </div>
+        
+        <div class="columna">
+<th><center><a href="#modal4">
+<img src="imagenes/ruta2.jpeg" ></a></center>
+   <div id="modal4" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta2.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>
+            
+<th><center><a href="#modal5">
+<img src="imagenes/ruta7.jpeg" ></a></center>
+   <div id="modal5" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta7.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal6">
+<img src="imagenes/ruta17.jpeg" ></a></center>
+   <div id="modal6" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta17.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>        
+        </div>
+        
+        <div class="columna">
+<th><center><a href="#modal7">
+<img src="imagenes/ruta3.jpeg" ></a></center>
+   <div id="modal7" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta3.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>
+            
+<th><center><a href="#modal8">
+<img src="imagenes/ruta8.jpeg" ></a></center>
+   <div id="modal8" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta8.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal9">
+<img src="imagenes/ruta13.jpeg" ></a></center>
+   <div id="modal9" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta13.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal10">
+<img src="imagenes/ruta16.jpeg" ></a></center>
+   <div id="modal10" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta16.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal11">
+<img src="https://www.uei.edu.ec/~cmiweb2/wp-content/uploads/2019/01/DECE-rese%C3%B1a.jpg" ></a></center>
+   <div id="modal11" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="https://www.uei.edu.ec/~cmiweb2/wp-content/uploads/2019/01/DECE-rese%C3%B1a.jpg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>            
+        </div>
+        
+        <div class="columna">
+<th><center><a href="#modal12">
+<img src="imagenes/ruta4.jpeg" ></a></center>
+   <div id="modal12" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta4.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>
+            
+<th><center><a href="#modal13">
+<img src="imagenes/ruta9.jpeg" ></a></center>
+   <div id="modal13" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta9.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal14">
+<img src="imagenes/ruta14.jpeg" ></a></center>
+   <div id="modal14" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta14.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal15">
+<img src="imagenes/ruta12.jpeg" ></a></center>
+   <div id="modal15" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta12.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal16">
+<img src="https://image.slidesharecdn.com/mapaconceptualprincipiosfundamentalesdelatomade-151115013855-lva1-app6892/95/mapa-conceptual-principios-fundamentales-de-la-toma-de-2-638.jpg?cb=1447551637" ></a></center>
+   <div id="modal16" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="https://image.slidesharecdn.com/mapaconceptualprincipiosfundamentalesdelatomade-151115013855-lva1-app6892/95/mapa-conceptual-principios-fundamentales-de-la-toma-de-2-638.jpg?cb=1447551637" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>            
+        </div>
+        
+        <div class="columna">
+<th><center><a href="#modal17">
+<img src="imagenes/ruta5.jpeg" ></a></center>
+   <div id="modal17" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta5.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>
+            
+<th><center><a href="#modal18">
+<img src="imagenes/ruta10.jpeg" ></a></center>
+   <div id="modal18" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta10.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal19">
+<img src="imagenes/ruta15.jpeg" ></a></center>
+   <div id="modal19" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta15.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+            
+<th><center><a href="#modal20">
+<img src="imagenes/ruta18.jpeg" ></a></center>
+   <div id="modal20" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta18.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th> 
+    
+<th><center><a href="#modal21">
+<img src="imagenes/ruta19.jpeg" ></a></center>
+   <div id="modal21" class="modalDialog">
+           <div>
+             <a href="#close" title="Close" class="close">X</a>
+              <br><br>
+<h2 align="center"><font color="black"><i><img src="imagenes/ruta19.jpeg" widht ="600px" height="800px"><br></i></font></h2>                     
+         </div>
+     </div>       
+</th>                   
+        </div>
+    </section>
+        
+    </body>
+        </header>
+        
+        <center><h3>"Leer es crecer en conocimiento"</h3></center><br>
+        
+    </fieldset>
+<br>
+</html>

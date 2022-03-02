@@ -1,0 +1,390 @@
+
+/* Aqui empiezan las 3 columnas para página principal */
+
+.body{
+    flex-wrap: wrap;
+}
+
+.columna1{
+    background-color: floralwhite;
+    border-radius: 5px;
+    width: 355px;
+    height: 550px;
+    float: left;
+    margin: 10px;
+}
+
+.columna2{
+    background-color: floralwhite;
+    border-radius: 5px;
+    width: 355px;
+    height: 550px;
+    float: left;
+    margin: 10px;
+}
+
+.columna3{
+    background-color: floralwhite;
+    border-radius: 5px;
+    width: 355px;
+    height: 550px;
+    float: left;
+    margin: 10px;
+}
+
+.contenedor{
+    width: 1250px;
+    height: 600px;
+    border: transparent 5px dashed;
+    margin: 0px auto;
+    transition: .5s;
+}
+
+.columna1:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.columna2:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.columna3:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.contenedor .columna1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenedor .columna1{
+    text-align: justify;
+}
+
+.contenedor .columna2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenedor .columna2{
+    text-align: justify;
+}
+
+.contenedor .columna3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenedor .columna3{
+    text-align: justify;
+}
+
+/* Aqui empieza el menu horizontal */
+
+body{
+    font-family: sans-serif;
+    background:"https://static.diariofemenino.com/media/3215/c/el-miedo-al-color-blanco-existe-asi-es-la-leucofobia-sm.jpg";
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* */
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;    
+}
+
+.menu li a:hover{
+    background: #ffcc22;
+} 
+
+/* Aqui empieza el menu vertical */
+
+.menuvertical a{
+    float: center;
+    width: 75%;
+} 
+
+.menuvertical a{
+    background-color: #092327;
+    color: white; 
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+}    
+
+.menuvertical a:hover{
+    background-color: transparent;
+    color: #092327;
+}
+
+/* prueba de menu abajo */
+
+body{
+    font-family: sans-serif;
+    background:"https://static.diariofemenino.com/media/3215/c/el-miedo-al-color-blanco-existe-asi-es-la-leucofobia-sm.jpg";    
+}
+
+.menup{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menup li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* */
+    display: block;
+}
+
+.menup li {
+    display: inline-block;
+    text-align: center;    
+}
+
+.menup li a:hover{
+    background: #9c9c9c;
+} 
+
+/* boton de volver atras */
+
+.boton{
+    background-color: #092327;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    width: 200px;
+    border: 4px solid #9c9c9c;
+    border-radius: 12px;
+    box-shadow: 0px 5px 4px 5px #d5d5d5; 
+}
+
+.boton:hover{
+    background-color: #9c9c9c;
+    color: black;
+}
+
+/* cuadro con imagen de página principal */
+
+.body{
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:"https://static.diariofemenino.com/media/3215/c/el-miedo-al-color-blanco-existe-asi-es-la-leucofobia-sm.jpg"; 
+}
+.box{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: floralwhite;
+    border-radius: 4px;
+    display: flex;
+    transition: .5s;
+}
+.box:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box .imgBx{
+    width: 600px;
+    flex: 0 0 600px;
+}
+.box .imgBx img{
+    max-width: 100%;
+}
+.box .content{
+    padding-left: 20px;
+}
+.box .content h1{
+    margin: 0;
+    padding-left: 0;
+    color: #092327;
+}
+.box .content h3{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+
+/* galeria de imagen */
+
+.body{
+    flex-wrap: wrap;
+}
+
+.encabezado{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.columna{
+    flex: 10%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+
+.columna img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.columna img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+}
+
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .7s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay .slideshow{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, .9);
+    color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* tarjeta de presentacion de autoridades */
+
+.subtitulo{
+    text-align: center;
+    padding: 5px 0;
+    background-color: #f3f3f3;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #efefef;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    margin: 15px 20px;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform: translateY(-15px);
+}
+    
+.card .head{
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.card .head .circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #0b6f72;
+    bottom: 0;
+}
+
+.card .head .img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card .head .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .description{
+    height: 200px;
+    padding: 40px 20px 20px 20px;
+    
+    text-align: center;
+}
+
+.card .description h3{
+    color: #05383a;
+}
+
+.card .description h4{
+    color: #1c5a5c;
+}
+
+.card .description p{
+    margin-top: 20px;
+    font-size: 16px;
+}
